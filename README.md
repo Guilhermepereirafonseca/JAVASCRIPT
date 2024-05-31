@@ -82,3 +82,27 @@ typeof [] // object
   document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}.`)
   document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}.`)
 ```
+
+### Operadores - AULA 7 e AULA 8
+- Os operadores são os mesmo de outras linguagens
+  - +, -, *, /, %, **
+  - <, >, >=, <=, ==, !=
+- falou da diferença de `==` e `===`
+  - sendo o primeiro igual a um número
+  - sendo o segundo igual a um número ou se e do mesmo tipo (int, string,..)
+- !(negação), &&(E), ||(OU)
+  - a ordem de execução e assim: `!, &&, ||` 
+```javascript
+
+  var x = 5
+  x = x + 1 // 6
+  x = x - 1 // 5
+```
+
+OPERADORES LÓGICOS:
+```javascript
+
+  idade >= 15 && idade <= 17 // a idade está entre 15 e 17?
+  estado == 'RJ' || estado == 'SP' // o estado é RJ ou SP?
+  salario > 1500 && sexo != 'M' // o salário é acima de 1500 e não é homem?
+```
