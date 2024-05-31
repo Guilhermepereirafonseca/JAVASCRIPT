@@ -106,3 +106,12 @@ OPERADORES LÓGICOS:
   estado == 'RJ' || estado == 'SP' // o estado é RJ ou SP?
   salario > 1500 && sexo != 'M' // o salário é acima de 1500 e não é homem?
 ```
+
+### Introdução ao DOM - AULA 9
+- DOM - Document Object Model
+- Selecionando elementos
+  - getElementsByTagName = selecioma varios elementos, mas precisa especificar a posição do mesmo com [] (sempre começa no 0)
+  - getElementById = seleciona um id especifico 
+
+![image](https://github.com/Guilhermepereirafonseca/JAVASCRIPT/assets/169271268/df563acf-3dc5-4ab1-b149-7cb0b99b6585)
+
