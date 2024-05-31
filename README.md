@@ -43,4 +43,42 @@ typeof n1 // number
 typeof [] // object
 ```
 
-### Tratando Dados - AULA 6 (continuo depois)
+### Tratando Dados - AULA 6
+- Criando variáveis que vão receber resultados de comandos
+- Convertendo para INT (INTEIRO)
+- window.prompt sempre vai ser tipo **STRING**
+  - ``Number.parInt()`` converte para **INTEIRO** (*jeito antigo*)
+  - ``Number.parFloat()`` converte para **REAL** (*jeito antigo*)
+  - ``Number`` converte para número (todos os tipos) (*jeito novo*)
+- Convertendo para STRING (TEXTO)
+  - ``String(n)`` converte para **STRING**
+  - ``n.toString`` converte também para **STRING**
+- Outro meio de concatenar e usando **TEMPLATE DE STRING**, que precisa de " ` ` " para funcionar
+  - ` oi ${nome} `
+  - `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+- Formatação de Strings foi relatado na aula também:
+  - s.length = mostra quantos caracteres tem a string
+  - s.toUpperCase() = converte para MAIÚSCULA
+  - s.toLowerCase() = converte para minúscula
+- Formatação de Números foi relatado na aula também:
+  - toFixed(2) = deixa duas casas decimais depois do ponto
+    - da pra modificar para virgula fazendo = n1.toFixed(2).replace('.', ',')
+
+<h3>VEJA O CÓDIGO ABAIXO: </h3>
+
+```javascript
+
+  var n1 = Number.parseInt(window.prompt('Digite um número: '))
+  var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+  var soma = n1 + n2
+  wndow.alert('A soma dos valores é ' + soma)
+  // (number + number) para adição
+  // (string + string) para concatenação
+```
+
+```javascript
+  var nome = window.prompt('Qual seu nome?')
+  document.write(`Seu nome tem <strong>${nome.length}</strong> letras. <br>`)
+  document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}.`)
+  document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}.`)
+```
