@@ -115,3 +115,14 @@ OPERADORES LÓGICOS:
 
 ![image](https://github.com/Guilhermepereirafonseca/JAVASCRIPT/assets/169271268/df563acf-3dc5-4ab1-b149-7cb0b99b6585)
 
+```javascript
+
+  var p1 = window.document.getElementsByTagName('p')[1] // seleciona varios elementos, se baseia em posição de lista para pegar o que você precisa
+  var corpo = window.document.body // pegando o corpo do site
+  window.document.write('Está escrito assim: ' + p1.innerHTML)
+  p1.style.color = 'yellow' // mudando a cor do paragrafo
+  corpo.style.background = 'black' // mudando a cor do fundo 
+```
+
+### Eventos DOM - AULA 10
+- Eventos de MOUSE
