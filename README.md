@@ -125,4 +125,27 @@ OPERADORES LÓGICOS:
 ```
 
 ### Eventos DOM - AULA 10
-- Eventos de MOUSE
+- Eventos de MOUSE [onclick=""]
+  - mouseenter = dentro da div
+  - mousemove = mouse se mexendo
+  - mousedown = precionar o mouse
+  - mouseup = soltar o mouse
+  - click = clicar normalmente
+
+```javascript
+
+<div id="area" onclick="clicar()">
+        Interaja...
+    </div>
+    
+    <script>
+        function clicar() {
+            var a = window.document.getElementById('area')
+            //a.innerText = 'Clicou'
+            a.innerHTML = '<strong> Clicou! </strong>'
+        }
+    </script>
+```
+
+### Condições - AULA 11
+- IF
